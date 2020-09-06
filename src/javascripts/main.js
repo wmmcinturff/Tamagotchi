@@ -1,8 +1,8 @@
 import '../styles/main.scss';
-import fightQuad from './components/quadrant';
+import quadrant from './components/quadrant';
 
 const init = () => {
-  fightQuad();
+  quadrant.quadInit();
 };
 
 init();

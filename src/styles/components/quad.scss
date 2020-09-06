@@ -1,0 +1,38 @@
+#app {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+};
+#eat {
+    border:solid black 2px;
+    background-color: aqua;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+};
+#play {
+    border:solid black 2px;
+    background-color: rgb(9, 194, 18);
+    border-radius: 12px;
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+};
+#fight {
+    border:solid black 2px;
+    background-color: rgb(240, 59, 59);
+    border-radius: 12px;
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+};
+#sleep {
+    border:solid black 2px;
+    background-color: rgb(110, 12, 119);
+    border-radius: 12px;
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+};

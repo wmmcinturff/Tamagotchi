@@ -1,0 +1,2 @@
+// fullScore = () =>{};
+// strengthScore = () =>{};

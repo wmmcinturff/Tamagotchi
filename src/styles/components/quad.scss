@@ -2,37 +2,38 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    flex-wrap: wrap;
 
 };
 #eat {
     border:solid black 2px;
     background-color: aqua;
     border-radius: 12px;
-    padding: 20px;
+    padding: 30px;
     max-width: 100%;
-    height: auto;
+    height: 70%;
 };
 #play {
     border:solid black 2px;
-    background-color: rgb(9, 194, 18);
+    background-color: rgb(97, 250, 105);
     border-radius: 12px;
-    padding: 10px;
+    padding: 30px;
     max-width: 100%;
-    height: auto;
+    height: 70%;
 };
 #fight {
     border:solid black 2px;
-    background-color: rgb(240, 59, 59);
+    background-color: rgb(240, 110, 110);
     border-radius: 12px;
-    padding: 10px;
+    padding: 30px;
     max-width: 100%;
-    height: auto;
+    height: 70%;
 };
 #sleep {
     border:solid black 2px;
-    background-color: rgb(110, 12, 119);
+    background-color: rgb(220, 61, 235);
     border-radius: 12px;
-    padding: 10px;
+    padding: 30px;
     max-width: 100%;
-    height: auto;
+    height: 70%;
 };

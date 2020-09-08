@@ -1,11 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
-
+@import './components/pet.scss';
 @import './components/quad.scss';
 
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background-color: rgb(179, 191, 212);
+  color: rgb(60, 14, 165);
   text-align: center;
   margin-top: 100px;
 };

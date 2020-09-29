@@ -29,5 +29,6 @@ const petData = [
   },
 
 ];
+const getArray = () => petData;
 
-export default { petData };
+export default { petData, getArray };

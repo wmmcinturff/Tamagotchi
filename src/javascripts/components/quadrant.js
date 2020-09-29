@@ -1,13 +1,18 @@
-import eat from './eat';
-import fight from './fight';
-import play from './play';
-import sleep from './sleep';
+// import petData from './data/petData';
 
-const quadInit = () => {
-  eat.eatQuad();
-  fight.fightQuad();
-  play.playQuad();
-  sleep.sleepQuad();
+const buildPetCards = (item) => {
+  const domString = `
+    <div class="card-${item.action}">
+  <div class="container">
+    <h4><b>${item.action.toUpperCase()}</b></h4>
+    <div id="${item.id}">
+    <h5 id="${item.action}-score">${item.score}</h5>
+    </div>
+    <button id="btn1-${item.button1}">${item.button1}</button>
+    <button id="btn2-${item.button2}">${item.button2}</button>
+  </div>
+  </div>`;
+  return domString;
 };
 
-export default { quadInit };
+export default { buildPetCards };

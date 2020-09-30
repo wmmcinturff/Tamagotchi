@@ -21,7 +21,7 @@ const eatButton = () => {
     $('#eat-score').html('');
     $('#eat-score').html(`<div>${healthyFood()}</div>`);
   });
-  $('#btn2-junk food').click(() => {
+  $('#btn2-junk-food').click(() => {
     $('#eat-score').html('');
     $('#eat-score').html(`<div>${junkFood()}</div>`);
   });

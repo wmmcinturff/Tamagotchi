@@ -23,7 +23,7 @@ const petData = [
   {
     id: '4',
     activity: 'sleep',
-    score: 100,
+    score: 50,
     button1: 'nap',
     button2: 'slumber'
   },

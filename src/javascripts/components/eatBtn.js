@@ -1,14 +1,16 @@
 let full = 100;
 
 const healthyFood = () => {
-  if (full >= 0 && full <= 100) {
+  if (full < 100) {
     full += 10;
+  } else if (full >= 100) {
+    full = 100;
   }
   return full;
 };
 
 const junkFood = () => {
-  if (full >= 0) {
+  if (full > 0) {
     full -= 3;
   } else if (full <= 0) {
     full = 0;

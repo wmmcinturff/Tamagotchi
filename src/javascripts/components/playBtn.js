@@ -1,14 +1,14 @@
 let fun = 50;
 
 const superFun = () => {
-  if (fun >= 0 && fun < 100) {
+  if (fun < 100) {
     fun += 50;
   }
   return fun;
 };
 
 const sortaFun = () => {
-  if (fun >= 0 && fun <= 100) {
+  if (fun < 100) {
     fun += 2;
   } else if (fun >= 0) {
     fun = 100;

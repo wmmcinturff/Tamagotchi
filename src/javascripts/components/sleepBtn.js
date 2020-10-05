@@ -1,15 +1,19 @@
 let energy = 50;
 
 const nap = () => {
-  if (energy >= 0 && energy <= 100) {
+  if (energy < 100) {
     energy += 50;
+  } else if (energy > 100) {
+    energy = 100;
   }
   return energy;
 };
 
 const slumber = () => {
-  if (energy >= 0 && energy <= 100) {
+  if (energy < 100) {
     energy += 60;
+  } else if (energy > 100) {
+    energy = 100;
   }
   return energy;
 };

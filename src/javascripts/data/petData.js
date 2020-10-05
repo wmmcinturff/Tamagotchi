@@ -23,11 +23,12 @@ const petData = [
   {
     id: '4',
     activity: 'sleep',
-    score: 100,
+    score: 50,
     button1: 'nap',
     button2: 'slumber'
   },
 
 ];
+const getArray = () => petData;
 
-export default { petData };
+export default { petData, getArray };

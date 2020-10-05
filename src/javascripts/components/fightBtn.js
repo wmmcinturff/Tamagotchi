@@ -1,14 +1,16 @@
 let strength = 100;
 
 const bravelyBuggerOff = () => {
-  if (strength >= 0 && strength <= 100) {
+  if (strength < 100) {
     strength += 1;
+  } else if (strength >= 100) {
+    strength = 100;
   }
   return strength;
 };
 
 const mortalCombat = () => {
-  if (strength >= 0) {
+  if (strength <= 100) {
     strength -= 10;
   } else if (strength <= 0) {
     strength = 0;
